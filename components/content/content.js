@@ -10,6 +10,7 @@ function Content({item}) {
     const dispatch = useDispatch()
 
 
+
     const addFavorites = (value) => {
         dispatch(addSubject(value))
     }
