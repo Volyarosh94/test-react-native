@@ -9,6 +9,7 @@ function Content({item}) {
     const navigation = useNavigation()
     const dispatch = useDispatch()
 
+
     const addFavorites = (value) => {
         dispatch(addSubject(value))
     }
